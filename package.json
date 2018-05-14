@@ -11,12 +11,11 @@
   "license": "GPL-3.0",
   "private": false,
   "_id": "redis-graph-light@0.0.5",
-  "dependencies": {
-    "webpack": "^4.8.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^5.1.1",
-    "standardjs": "^1.0.0-alpha"
+    "standardjs": "^1.0.0-alpha",
+    "webpack": "^4.8.3"
   },
   "scripts": {
     "test": "mocha ./test/tests"
