@@ -12,7 +12,7 @@ let clientConn
  * Set the client object to be used for graph connections
  * @param {Object} client - client connection using ioredis or other compatible redis connection
  */
-export const setClient = (client) => {
+const setClient = (client) => {
   clientConn = client
 }
 
@@ -20,7 +20,7 @@ export const setClient = (client) => {
  * Edge Class Instance. For use within Node Class
  * @class
  */
-export class Edge {
+class Edge {
   /**
    * Construct an Edge relationship for a Node
    * @constructor
@@ -172,7 +172,7 @@ export class Edge {
  * Attribute Class Instance. For use within Node Class
  * @class
  */
-export class Attribute {
+class Attribute {
   /**
    * Attribute management for a Node
    * @constructor
@@ -304,7 +304,7 @@ export class Attribute {
  * Node Class Instance. For use with interacting with the PBID Graph Lite
  * @class
  */
-export class Node {
+class Node {
   /**
    * Create a new Node in memory for interacting with the graph
    * @constructor
@@ -336,3 +336,6 @@ export class Node {
     return this['nodeName']
   }
 }
+
+exports.setClient = setClient
+exports.Node = Node

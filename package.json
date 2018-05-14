@@ -2,13 +2,23 @@
   "name": "redis-graph-light",
   "version": "0.0.5",
   "description": "Client-based Redis Graph Light",
-  "main": "./lib/index.js",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/nthomas20/redis-graph-light.git"
   },
   "author": "Nathaniel Thomas <nthomas20@gmail.com>",
-  "license": "AGPL-3.0-only",
+  "license": "GPL-3.0",
   "private": false,
-  "_id": "redis-graph-light@0.0.5"
+  "_id": "redis-graph-light@0.0.5",
+  "dependencies": {
+    "webpack": "^4.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "standardjs": "^1.0.0-alpha"
+  },
+  "scripts": {
+    "test": "mocha ./test/tests"
+  }
 }
