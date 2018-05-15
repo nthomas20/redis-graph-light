@@ -1,6 +1,6 @@
 {
   "name": "redis-graph-light",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Client-based Redis Graph Light",
   "main": "./src/index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "author": "Nathaniel Thomas <nthomas20@gmail.com>",
   "license": "GPL-3.0",
   "private": false,
-  "_id": "redis-graph-light@0.0.5",
+  "_id": "redis-graph-light@0.0.6",
   "dependencies": {},
   "devDependencies": {
     "mocha": "^5.1.1",
