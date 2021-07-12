@@ -11,10 +11,9 @@
   "license": "GPL-3.0",
   "private": false,
   "_id": "redis-graph-light@0.0.6",
-  "dependencies": {},
   "devDependencies": {
     "mocha": "^8.0.1",
-    "standardjs": "^1.0.0-alpha",
+    "standard": "^16.0.3",
     "webpack": "^4.8.3"
   },
   "scripts": {
