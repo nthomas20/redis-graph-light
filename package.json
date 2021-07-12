@@ -1,6 +1,6 @@
 {
   "name": "redis-graph-light",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Client-based Redis Graph Light",
   "main": "./src/index.js",
   "repository": {
