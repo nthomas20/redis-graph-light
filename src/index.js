@@ -3,7 +3,7 @@
 /**
  * Simple Graph Node for use with RedisGraphLite Engine. This graph is interacted through graph Nodes and not queries
  * Original inspiration from redis-graph: https://github.com/tblobaum/redis-graph
- * @author Nathaniel Thomas <nthomas20@gmail.com>
+ * @author Nathaniel Thomas
  */
 
 let clientConn
